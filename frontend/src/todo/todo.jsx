@@ -17,8 +17,7 @@ export default class Todo extends Component {
         this.state = { description: '', list: [] }
         /*Faz um bind com a classe que chamou, o this no React não é léxico depende de quem chama
           No Angula é Two-way Data Binding, Altera no DOM reflete no JS, porém no react o JS é
-          a verdade absoluta, o javascript que controla o DOM (Componentes Controlados e Não controlados)
-        */
+          a verdade absoluta, o javascript que controla o DOM (Componentes Controlados e Não controlados)*/
         
         this.handleChange = this.handleChange.bind(this)
         this.handleAdd = this.handleAdd.bind(this)
